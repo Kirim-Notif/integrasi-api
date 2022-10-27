@@ -1,5 +1,5 @@
 <?php 
-    $ch = curl_init( "http://localhost:8080/api/m/login" );
+    $ch = curl_init( "https://appwa.kirimnotif.id/api/m/login" );
     
     $arr_post = array(
         "email" => "",
